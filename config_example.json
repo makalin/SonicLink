@@ -1,0 +1,23 @@
+{
+  "sample_rate": 48000,
+  "chunk_size": 1024,
+  "channels": 1,
+  "default_bitrate": 80000,
+  "default_freq_range": {
+    "min_freq": 18000,
+    "max_freq": 22000
+  },
+  "encryption_enabled": true,
+  "compression_enabled": true,
+  "reed_solomon_enabled": true,
+  "rs_n": 255,
+  "rs_k": 223,
+  "ofdm_carriers": 64,
+  "ofdm_cyclic_prefix": 16,
+  "ofdm_symbol_duration": 0.01,
+  "noise_filter_enabled": true,
+  "adaptive_gain": true,
+  "max_gain": 10.0,
+  "log_level": "INFO",
+  "log_file": null
+} 
